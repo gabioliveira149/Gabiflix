@@ -1,15 +1,32 @@
-
 body {
-color: white;       /*cor-da-fonte: branco;*/
-background: black;    /*cor-fundo: preto*/
-margin: 0px;        /*margem-externa-elemento:0pixels*/
-font-family: 'Chakra Petch';   /*tipo-de-fonte*/
-margin-bottom: 100px;   /*margin-extrema-de-baixo*/
+  color: white;
+  /*cor-da-fonte: branco;*/
+  background: black;
+  /*cor-fundo: preto*/
+  margin: 0px;
+  /*margem-externa-elemento:0pixels*/
+  font-family: 'Chakra Petch';
+  /*tipo-de-fonte*/
+  margin-bottom: 100px;
+  /*margin-extrema-de-baixo*/
 }
-header{
- border-bottom:solid 2px rgb(42,122,228);
-                  /*borda-de-baixo: linha-solida 2pixels cor-padrão-rgb*/
-  padding: 20px;  /*epaço-interno do elemento  : 20pixels*/
-font-size: 32px; /*tamanho da fonte : 32pixels*/
- color: rgb(42,122,228); /*cor-da-fonte-texto: cor-padrão-rgb*/
- }
+
+header {
+  border-bottom: solid 2px rgb(42, 122, 228);
+  /*borda-de-baixo: linha-solida 2pixels cor-padrão-rgb*/
+  padding: 20px;
+  /*epaço-interno do elemento  : 20pixels*/
+  font-size: 32px;
+  /*tamanho da fonte : 32pixels*/
+  color: rgb(42, 122, 228);
+  /*cor-da-fonte-texto: cor-padrão-rgb*/
+}
+
+section {
+  background: rgb(184, 156, 213);
+  padding-bottom: 80px;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
